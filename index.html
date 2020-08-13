@@ -1,95 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amjad Odeh | Web Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
   </head>
-
-  <!-- 
-  I thought it would be easy to make this site... 
-  it was, but it was definitely not as easy as I 
-  thought it would be.
-  -->
-
   <body>
-    <header>
-      <br>
-      <h1><b>Amjad Odeh</b></h1>
-      <h2>Web Developer</h2>
-    </header>
+ 
+ <header>
+   <h1>Amjad Odeh</h1>
+ </header>
+ 
+ <main>
 
-    <main>
-      <!-- this marks the beginning of the "<br> disaster" -->
-      <br>
-      <section>
-        <img src="images/aYoungerMe.png" alt="an old picture of me / taken by accident btw"/>
-        <article>
-          <h3>Hello, I'm Amjad Odeh.</h3>
-          <p>I'm a Web Developer from Baltimore, Maryland.</p>
-          <p>I'm new to this (if this website doesn't make that obvious enough) and I wouldn't even call myself a developer yet but thats what I am supposed to do apparently (according to this web dev course) so... yeah.</p>
-        </article>
-      </section>
-      <!-- nothing could stop it now -->
-      <br>
-      <hr>
+   <article id="intro" class="group wrapper"> 
 
-      <section>
-        <article>
-          <h3>About Me</h3>
-          <p>
-            I like to make things and I hope Web Development will give me the skills I need to take it to the next step. It's not very often I work on projects with others but when I do, I never regret it. There is always more efficient methods to create and ideas that have never crossed my mind. But like I said Web Development is what is going to help me take my creative endeavors to the next step.
-          </p>
-          <p>
-            Some of my other interests include:
-          </p>
-          <ul>
-            <li>Reading</li>
-            <li>Exercise</li>
-            <li>Skateboarding (though I haven't skated much since I was younger, I still do it from time to time.)</li>
-            <li>Spending time with friends</li>
-          </ul>
-        </article>
-      </section>
-      <!-- 
-      
-      i was addicted to <br>, 
-      but to be fair it kinda worked... 
-      i know... i should've fixed the spacing problem at its roots.
-      i searched it up and nothing else worked so uhhh... (<br>)
-      i'm going to ask my mentor for a better way of fixing the spacing next time we meet.
-      
-      -->
-      <br>
-      <hr>
+     <div class="item">
+       <img src="images/aYoungerMe.png" alt="an old picture of me / taken by accident btw">
+     </div>
 
-      <section>
-        <article>
-          <h3>Contact</h3>
-          <ol>
-             <!-- doot dooda doot doo, doot doo! -->
-            <li><a href="https://www.linkedin.com/in/amjad-odeh-b8668a1b4/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/amjadodeh" target="_blank">GitHub</a></li>
-          </ol>
-        </article>
-      </section>
-      <!-- double <br> lol. but hey... if it's stupid and it works, it ain't stupid. -->
-      <br>
-      <br>
-    </main>
+     <div class="item">
+       <p class="hello"><b>Hello, I'm Amjad Odeh.</b></p>
+       <p>I'm a Web Developer from Baltimore, Maryland.</p>
+       <p>I'm new to this (if this website doesn't make that obvious enough) but I believe I can become an exeptional Web Developer soon. I'm pationate, hard-working, creative, a good leader, and I'm able to think outside the box to find the solution. But most importantly, I love to create new things so thats what I do.</p>
+       <p>I love the internet. I guess we all do but most people like internet for its resourcefulness. I see it as the perfect platform to share my creations and ideas with the world to make the world a better place for everyone. </p>
+     </div>
 
-    <footer>
-      <br>
-      <div>
-        <!-- looked neat so i put it. ignore the <br> above... -->
-        <h3>@amjadodeh</h3>
-      </div>
-    </footer>
-    <!--
-    everything before js...
-    -->
+   </article>
+
+
+
+   <article id="about" class="group wrapper"> 
+     
+     <div class="item">
+       <h2>About Me</h2>
+       <p>Web Devepopment has given me great creative freedom which I need but I realize this isn't something I can do alone as my ideas and creations can always improve and I can't expect myself to think of every good idea. I've discovered through working on projects with others that I'm a good leader and a great planner. I'm not afraid to ask questions to understand the concept and I'm willing to give others my time and attention to accomplish our task. I guess this is something I've developed though skateboarding because I could never expect to learn a trick without understanding the exact movements I needed to do. I learned important strategies I use to this day to learn and share ideas and concepts. List of services you can (or want to) provide a client.</p>
+       <p>Services I Provide:</p>
+       <ol>
+         <li>Full-stack Software Development (Frontend and or Backend)</li>
+         <li>Web Development</li>
+         <li>Software Engineering</li>
+         <li>DevOps Engineering</li>
+       </ol>
+     </div>
+
+     <div class="item">
+       <img src="images/basicOllie.jpg" alt="Skateboarder Doing Trick">
+     </div>
+   
+   </article>
+
+
+
+   <article id="project" class="wrapper"> 
+
+     <div class="title">
+       <h2>My Projects</h2>
+     </div>
+     
+     <div class="group">
+     
+     <div class="item">
+       <img src="images/placeholder.png" alt="Asdfinator Project Image" class="rounded">
+       <h3>Asdfinator</h3>
+       <p>This is a description of the Asdfinator App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it..</p>
+
+       <a href="#">Link to GitHub repo</a>
+       <p class="small-margin">or</p>
+       <a href="Asdfinator.com" target="_blank">Check out the site yourself!</a>
+     </div>
+
+     <div class="item">
+       <img src="images/placeholder.png" alt="Qwertinator Project Image" class="rounded">
+       <h3>Qwertinator</h3>
+       <p>This is a description of the Qwertinator App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it..</p>
+
+       <a href="#">Link to GitHub repo</a>
+       <p class="small-margin">or</p>
+       <a href="Qwertinator.com" target="_blank">Check out the site yourself!</a>
+     </div>
+     
+     </div>
+     <div class="group">
+
+     <div class="item">
+       <img src="images/placeholder.png" alt="Zxcvinator Project Image" class="rounded">
+       <h3>Zxcvinator</h3>
+       <p>This is a description of the Zxcvinator App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it..</p>
+
+       <a href="#">Link to GitHub repo</a>
+       <p class="small-margin">or</p>
+       <a href="Zxcvinator.com" target="_blank">Check out the site yourself!</a>
+     </div>
+
+     <div class="item">
+       <img src="images/placeholder.png" alt="Tyuinator Project Image" class="rounded">
+       <h3>Tyuinator</h3>
+       <p>This is a description of the Tyuinator App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it..</p>
+
+       <a href="#">Link to GitHub repo</a>
+       <p class="small-margin">or</p>
+       <a href="Tyuinator.com" target="_blank">Check out the site yourself!</a>
+     </div>
+
+     </div>
+
+   </article>
+
+
+
+   <article id="contact" class="wrapper"> 
+
+     <div class="title">
+       <h2>Contact Me</h2>
+     </div>
+
+     <div class="group">
+
+     <div class="item">
+       <p>I'll get back to you <b>as soon as possible.</b></p>
+       <ul>
+         <li><a href="mailto:aao001056485@gmail.com">Email Me</a></li>
+         <li><a href="https://github.com/amjadodeh">My GitHub</a></li>
+         <li><a href="https://www.linkedin.com/in/amjad-odeh-b8668a1b4/">My LinkedIn</a></li>
+       </ul>
+     </div>
+
+     <div class="item">
+       <iframe src="https://maps.google.com/maps?q=baltimore&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     </div>
+
+     </div>
+
+   </article>
+
+ </main>
+ 
+ <footer></footer>
+
     <script src="script.js"></script>
   </body>
 </html>
