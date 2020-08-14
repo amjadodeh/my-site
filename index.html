@@ -11,6 +11,14 @@
  
  <header>
    <h1>Amjad Odeh</h1>
+   <nav>
+     <ul>
+       <li><a href="/">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#projects">Projects</a></li>
+       <li><a href="#contact">Contact</a></li>
+     </ul>
+   </nav>
  </header>
  
  <main>
@@ -54,7 +62,7 @@
 
 
 
-   <article id="project" class="wrapper"> 
+   <article id="projects" class="wrapper"> 
 
      <div class="title">
        <h2>My Projects</h2>
@@ -80,19 +88,6 @@
        <a href="#">Link to GitHub repo</a>
        <p class="small-margin">or</p>
        <a href="Qwertinator.com" target="_blank">Check out the site yourself!</a>
-     </div>
-     
-     </div>
-     <div class="group">
-
-     <div class="item">
-       <img src="images/placeholder.png" alt="Zxcvinator Project Image" class="rounded">
-       <h3>Zxcvinator</h3>
-       <p>This is a description of the Zxcvinator App I built. I'll share what my goal was in creating it, the skills/languages I applied, and what I learned doing it..</p>
-
-       <a href="#">Link to GitHub repo</a>
-       <p class="small-margin">or</p>
-       <a href="Zxcvinator.com" target="_blank">Check out the site yourself!</a>
      </div>
 
      <div class="item">
@@ -120,15 +115,26 @@
      <div class="group">
 
      <div class="item">
-       <p>I'll get back to you <b>as soon as possible.</b></p>
-       <ul>
-         <li><a href="mailto:amjadodeh6485@gmail.com">Email Me</a></li>
-         <li><a href="https://github.com/amjadodeh">My GitHub</a></li>
-         <li><a href="https://www.linkedin.com/in/amjad-odeh-b8668a1b4/">My LinkedIn</a></li>
-       </ul>
+       <p><b>Email me anytime.</b> I'll get back to you as soon as possible.</p>
+       <form action="https://formspree.io/aao001056485@gmail.com" method="post">
+        <label for="name">Full Name:</label><br>
+        <input id="name" type="text" name="name" autofocus="on" required >
+        <br>
+        <label for="email">Email:</label><br>
+        <input id="email" type="text" name="email" required >
+        <br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" maxlength="555" rows="8" required ></textarea>
+        <br>
+        <button type="submit">Submit</button>
+       </form>
      </div>
 
      <div class="item">
+       <ul>
+         <li><a href="https://github.com/amjadodeh">My GitHub</a></li>
+         <li><a href="https://www.linkedin.com/in/amjad-odeh-b8668a1b4/">My LinkedIn</a></li>
+       </ul>
        <iframe src="https://maps.google.com/maps?q=baltimore&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
      </div>
 
@@ -138,7 +144,9 @@
 
  </main>
  
- <footer></footer>
+ <footer>
+   <h4>@amjadodeh</h4>
+ </footer>
 
     <script src="script.js"></script>
   </body>

@@ -3,17 +3,24 @@ body {
   background-color: #E8EDDF;
 }
 
-header {
+header, footer {
   background-color: #242423;
-  /*margin-bottom: 40px;
-  display: block;*/
+}
+
+h4 {
+  margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 16px;
 }
 
 header h1 {
   color: #F5CB5C;
   text-align: center;
   margin: 0;
-  padding: 20px;
+  padding: 20px 0 10px 0;
   font-family: monospace;
   font-size: 40px;
 }
@@ -26,7 +33,30 @@ img.rounded {
   border-radius: 8px;
 }
 
-h2, p, .hello, h3, a, li {
+header nav ul {
+  justify-content: center;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+header nav ul li a:link {
+  font-family: monospace;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  font-size: 17px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+h2, p, .hello, h3, a, li, label {
   color: #242423;
   font-family: monospace;
 }
@@ -39,7 +69,7 @@ h3 {
   font-size: 21px;
 }
 
-p, a, li {
+p, a, li, label {
   font-size: 19px;
 }
 
@@ -49,6 +79,14 @@ p, a, li {
 
 .small-margin {
   margin: 5px 0px;
+}
+
+textarea, input {
+  width: 100%;
+  color: #242423;
+  font-size: 17px;
+  margin-bottom: 25px;
+  font-family: monospace;
 }
 
 /* Groups & Items (Mobile First) */
@@ -68,7 +106,7 @@ p, a, li {
   margin: 10px;
 }
 
-#intro, #about, #project, #contact {
+#intro, #about, #projects, #contact {
   padding: 20px 0px;
   margin-bottom: 120px;
 }
@@ -101,3 +139,18 @@ a:active {color: #F5CB5C;}
 
 }
 
+@media all and (min-width: 650px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    padding: 15px 15px 15px 25px;
+  }
+
+  header nav ul {
+    padding: 26px 13px 25px 25px;
+    margin: 0;
+  }
+}
