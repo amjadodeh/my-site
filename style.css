@@ -56,6 +56,10 @@ header nav ul li {
   list-style-type: none;
 }
 
+iframe {
+  width: 100%;
+}
+
 h2, p, .hello, h3, a, li, label {
   color: #242423;
   font-family: monospace;
