@@ -1,9 +1,9 @@
-
 body {
-  background-color: #E8EDDF;
+  background-color: #e8eddf;
 }
 
-header, footer {
+header,
+footer {
   background-color: #242423;
 }
 
@@ -17,7 +17,7 @@ h4 {
 }
 
 header h1 {
-  color: #F5CB5C;
+  color: #f5cb5c;
   text-align: center;
   margin: 0;
   padding: 20px 0 10px 0;
@@ -26,7 +26,7 @@ header h1 {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 img.rounded {
@@ -60,12 +60,19 @@ iframe {
   width: 100%;
 }
 
-h2, p, .hello, h3, a, li, label {
+h2,
+p,
+.hello,
+h3,
+a,
+li,
+label {
   color: #242423;
   font-family: monospace;
 }
 
-h2, .hello {
+h2,
+.hello {
   font-size: 23px;
 }
 
@@ -73,7 +80,10 @@ h3 {
   font-size: 21px;
 }
 
-p, a, li, label {
+p,
+a,
+li,
+label {
   font-size: 19px;
 }
 
@@ -85,7 +95,8 @@ p, a, li, label {
   margin: 5px 0px;
 }
 
-textarea, input {
+textarea,
+input {
   width: 100%;
   color: #242423;
   font-size: 17px;
@@ -110,20 +121,31 @@ textarea, input {
   margin: 10px;
 }
 
-#intro, #about, #projects, #contact {
+#intro,
+#about,
+#projects,
+#contact {
   padding: 20px 0px;
   margin-bottom: 120px;
 }
 
 #about {
-  background-color: #CFDBD5;
+  background-color: #cfdbd5;
   margin: 120px 0px;
 }
 
-a:link {color: #333533;}
-a:visited {color: #CFDBD5}
-a:hover {color: #777777;}
-a:active {color: #F5CB5C;}
+a:link {
+  color: #333533;
+}
+a:visited {
+  color: #cfdbd5;
+}
+a:hover {
+  color: #777777;
+}
+a:active {
+  color: #f5cb5c;
+}
 
 /* Groups & Items (Desktop) */
 
@@ -140,7 +162,6 @@ a:active {color: #F5CB5C;}
   #about {
     padding: 20px 10% 30px 10%;
   }
-
 }
 
 @media all and (min-width: 650px) {
