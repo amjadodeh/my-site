@@ -1,3 +1,3 @@
 # myPortfolio
 
-see it for yourself >>> https://amjadodeh.github.io/myPortfolio/
+Live site: https://amjadodeh.com
