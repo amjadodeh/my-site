@@ -103,6 +103,10 @@ h3 {
   width: 55%;
 }
 
+.contact-links-ul {
+  padding-left: 18px;
+}
+
 a:link {
   color: #333533;
 }
