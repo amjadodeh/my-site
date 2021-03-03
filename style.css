@@ -1,4 +1,5 @@
 body {
+  color: #000;
   background-color: #e8eddf;
   font-family: monospace;
   font-size: 19px;
@@ -106,13 +107,13 @@ a:link {
   color: #333533;
 }
 a:visited {
-  color: #cfdbd5;
+  color: #b44848;
 }
 a:hover {
   color: #777777;
 }
 a:active {
-  color: #f5cb5c;
+  color: #b69846;
 }
 
 footer {
