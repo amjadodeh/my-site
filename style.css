@@ -191,4 +191,8 @@ footer > * {
   .projects-wrapper * {
     width: 100%;
   }
+
+  #projects > h3 {
+    margin-top: 45px;
+  }
 }
