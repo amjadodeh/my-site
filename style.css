@@ -79,6 +79,10 @@ h3 {
   margin: 20px;
 }
 
+#projects > h3 {
+  margin-top: 30px;
+}
+
 .about-wrapper {
   background-color: #cfdbd5;
 }
