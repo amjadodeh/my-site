@@ -137,6 +137,12 @@ footer > * {
   font-size: 16px;
 }
 
+.imagetext {
+  margin-top: 0px;
+  color: #777777;
+  font-size: 15px;
+}
+
 /* Desktop */
 
 @media all and (min-width: 1100px) {
