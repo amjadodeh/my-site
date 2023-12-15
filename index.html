@@ -1,254 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Amjad Odeh | Software Engineer</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Amjad Odeh / Linux Administrator</title>
     <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
-      type="text/css"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
     />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1 id="home">Amjad Odeh</h1>
-      <nav>
-        <ul class="nav-ul">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="grid-2">
+      <div class="section-1">
+        <i class="fas fa-code fa-5x white"></i>
+        <h2 id="terminal"><span id="caret">_</span></h2>
+        <p>Baltimore,USA.</p>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/amjadodeh"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/amjadodeh"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="section-2">
+        <h2>About</h2>
+        <p>
+          Dynamic Linux Administrator with a robust background in app
+          development and engineering, bringing 4 years of specialized
+          experience in Linux server management and optimization. Known for a
+          unique blend of technical acumen and innovative problem-solving
+          skills, aimed at enhancing system performance and reliability in
+          technology teams.
+        </p>
 
-    <main>
-      <article class="intro-wrapper">
-        <div>
-          <img
-            src="images/picture-of-me.jpg"
-            alt="(Don't worry.. You're not missing much)"
-          />
-          <p class="imagetext">That's me!</p>
-        </div>
+        <h2>Experience</h2>
+        <p>
+          Seasoned Linux Administrator, skillfully managing and automating 50+
+          Linux servers since January 2019. Prior experience in app development
+          and engineering with a strong focus on Linux, contributing to both
+          system design and performance enhancements.
+        </p>
 
-        <div>
-          <p class="hello"><b>Hello, World! I'm Amjad Odeh.</b></p>
-          <p>I'm a Software Engineer from Baltimore, Maryland.</p>
-          <p>
-            I am skilled in writing clean, practical, and tested code to create
-            and deploy mobile-first responsive applications through test-driven
-            development. I've worked extensively on the front-end with React and
-            jQuery, ensuring that data from APIs render quickly and efficiently.
-            I have developed complex APIs using Node.js with clean, readable,
-            and tested code.
-          </p>
-          <p>
-            I'm passionate, hard-working, creative, and I'm able to think
-            outside the box to find the solution. But most importantly, I work
-            best as part of a team.
-          </p>
-        </div>
-      </article>
+        <h2>Skills</h2>
+        <p>
+          Specialized in Linux administration with a focus on automation and
+          orchestration. Proficient in Bash and Python scripting, virtualization
+          (KVM, VMware), and cloud platforms like AWS and Azure. Skilled in
+          configuration management tools such as Ansible, Puppet, and Terraform,
+          and experienced in container technologies including Docker and
+          Kubernetes. Recognized for advanced problem-solving and efficient
+          project management.
+        </p>
 
-      <article id="about" class="about-wrapper">
-        <div>
-          <h3>About Me</h3>
-          <p>
-            First and foremost, I'm a Muslim. I am originally from a small
-            village in Palestine but I have spent most of my life in the states.
-            As a Muslim, I believe our purpose in life is profound, yet simple.
-            I strive to bring all aspects of my outer and inner being to
-            complete conformity to what God has commanded.
-          </p>
-          <p>
-            Life is short and I don't want to waste it. And to be frank, God
-            didn't put us on earth to sit around and watch netflix all day. I
-            need to be a good and do good. So, I intend to use my skills to keep
-            working to make a good change. My programming skills coupled with my
-            communication skills I have developed from working as a salesman and
-            on a team for many years is what I intend to use in order to
-            programmatically make the world a better place for everyone.
-          </p>
-          <p>Services I Provide:</p>
-          <ol>
-            <li>Full-Stack Web Development (Front-end and Back-end)</li>
-            <li>Full-Stack Software Engineering (Front-end and Back-end)</li>
-            <li>DevOps Engineering</li>
-          </ol>
-        </div>
+        <!-- coming soon -->
+        <!-- <h2>Projects</h2>
+        <a href="#">Project_1</a>
+        <a href="#">Project_2</a>
+        <a href="#">Project_3</a>
+        <a href="#">Project_4</a>
+        <a href="#">Project 5</a> -->
 
-        <div>
-          <img src="images/home.jpeg" alt="(Picture of my hometown)" />
-          <p class="imagetext">Picture of my hometown.</p>
-        </div>
-      </article>
-
-      <article id="projects">
-        <h3>My Projects</h3>
-
-        <div class="projects-wrapper">
-          <div class="project">
-            <img
-              src="https://camo.githubusercontent.com/cfe41653a5057df346da50ecc54f7f2745a002cd01a9df93ea149b5eec9ba199/68747470733a2f2f692e696d6775722e636f6d2f367663716b4b622e706e67"
-              alt="Small Circles Screenshot"
-            />
-            <h4>Small Circles</h4>
-            <div>
-              A fully responsive full-stack React app with an Express API. Small
-              Circles is a social platform (Twitter clone) focused on giving you
-              control of your data. With every post, you decide who can see your
-              content. You can make a private post that only you can see, a post
-              to be seen by all your friends, or select from your friend list to
-              share to. You can even send direct messages to your friends. This
-              application is still in progress.
-            </div>
-            <p>
-              Tech: React, React Router, Node.js, Express, PostgreSQL, HTML5,
-              CSS3, JavaScript, RESTful API, Mocha, Chai, Supertest, and Jest
-            </p>
-
-            <a
-              href="https://github.com/amjadodeh/small-circles-client"
-              target="_blank"
-              >GitHub Repo</a
-            >
-            <a href="https://small-circles-client.vercel.app" target="_blank"
-              >Live App</a
-            >
-          </div>
-
-          <div class="project">
-            <img
-              src="https://camo.githubusercontent.com/2b5f402f3a3b8566366e694895d417d856f33d5a01fd91d866d57af50ce11ba5/68747470733a2f2f692e696d6775722e636f6d2f466f51654651472e706e67"
-              alt="ColorStop Screenshot"
-            />
-            <h4>ColorStop</h4>
-            <div>
-              A fully responsive full-stack React app with an Express API.
-              ColorStop is an essential tool for creating and exploring color
-              palettes. It features the ability to generate palettes and upload
-              them to be seen by other users. The API hashes passwords before
-              storing them in the database.
-            </div>
-            <p>
-              Tech: React, React Router, Node.js, Express, PostgreSQL, HTML5,
-              CSS3, JavaScript, RESTful API, Mocha, Chai, Supertest, and Jest
-            </p>
-
-            <a
-              href="https://github.com/amjadodeh/colorstop-client"
-              target="_blank"
-              >GitHub Repo</a
-            >
-            <a href="https://colorstop-client.vercel.app/" target="_blank"
-              >Live App</a
-            >
-          </div>
-
-          <div class="project">
-            <img
-              src="https://raw.githubusercontent.com/amjadodeh/royalty-free-media-finder/main/screenshots/search.jpg"
-              alt="Royalty-Free Media Finder Screenshot"
-            />
-            <h4>Royalty-Free Media Finder</h4>
-            <div>
-              An application from an AJAX hack that works with two external
-              APIs—made to be a convenient way to search for high-quality
-              royalty-free media all in one place. Everything is free to use for
-              any project or even commercial use. This application is fully
-              responsive.
-            </div>
-            <p>Tech: JavaScript, jQuery, HTML, and CSS</p>
-
-            <a
-              href="https://github.com/amjadodeh/royalty-free-media-finder"
-              target="_blank"
-              >GitHub Repo</a
-            >
-            <a
-              href="https://amjadodeh.github.io/royalty-free-media-finder/"
-              target="_blank"
-              >Live App</a
-            >
-          </div>
-        </div>
-      </article>
-
-      <article id="contact" class="contact-wrapper">
-        <div class="contact-div contact-div-1">
-          <h3>Contact Me</h3>
-          <p>
-            <b>Email me anytime.</b> I'll get back to you as soon as possible.
-          </p>
-          <form action="https://formspree.io/f/xwkayovy" method="post">
-            <label for="name">Full Name:</label><br />
-            <input
-              class="form-input"
-              id="name"
-              type="text"
-              name="name"
-              required
-            />
-            <br />
-            <label for="email">Email:</label><br />
-            <input
-              class="form-input"
-              id="email"
-              type="text"
-              name="email"
-              required
-            />
-            <br />
-            <label for="message">Message:</label><br />
-            <textarea
-              name="message"
-              id="message"
-              maxlength="555"
-              rows="8"
-              required
-            ></textarea>
-            <br />
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-
-        <div class="contact-div">
-          <ul class="contact-links-ul">
-            <li>
-              <a href="mailto:amjadodeh127@gmail.com" target="_blank"
-                >My Email</a
-              >
-            </li>
-            <li>
-              <a href="https://github.com/amjadodeh" target="_blank"
-                >My GitHub</a
-              >
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/amjadodeh" target="_blank"
-                >My LinkedIn</a
-              >
-            </li>
-          </ul>
-          <iframe
-            src="https://maps.google.com/maps?q=baltimore&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
-        </div>
-      </article>
-    </main>
-
-    <footer>
-      <h4>@amjadodeh</h4>
-    </footer>
-
+        <h2>Contact</h2>
+        <p>amjadodeh127@gmail.com</p>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
