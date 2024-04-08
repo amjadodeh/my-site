@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var caret = document.getElementById("caret");
   var otherContent = document.getElementById("other-content");
   var prompt = "$ ";
-  var command = "./portfolio.sh";
+  var command = "whoami";
   var index = 0;
   isTyping = true;
 
