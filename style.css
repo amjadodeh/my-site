@@ -43,7 +43,8 @@ a {
 }
 
 .section-1 img {
-  width: 90px;
+  /* width: 90px; */
+  width: 120px;
 }
 
 .section-1 p {
