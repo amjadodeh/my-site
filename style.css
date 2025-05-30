@@ -133,7 +133,9 @@ a {
 
 .output {
   margin-top: 9px;
-  transition: color 2s ease, font-size 2s ease;
+  transition:
+    color 2s ease,
+    font-size 2s ease;
   color: #7a7c80;
   font-size: 1.2rem;
 }
